@@ -1,0 +1,56 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    .logo{
+    width: 50px;
+    height: 50px;
+}
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-light .navbar-toggler {
+    color: #0d6efd;
+    border:0.5px solid rgba(0, 0, 0, .1);
+}
+.btn {
+    line-height: 1;
+}
+.myDetails{
+    margin-top: 30px;
+}
+.my-picture{
+    margin-top: 25px;
+    height: 380px;
+}
+.textBoxItems{
+    align-items: center;
+    justify-content: center;
+    border: 2px solid navy;
+    border-radius: 5px;
+}
+.textBoxItems img {
+    width: 90px;
+    height: 100px;
+}
+.textBoxItems h4 {
+    font-size: 20px;
+}
+.textBoxItems p {
+    font-size: 17px;
+    text-align: justify;
+}
+.contactBtn button{
+    width: 200px;
+    height: 30px;
+}
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .btn{
+    width: 100px;
+
+}
+.nav-items{
+    gap: 10px;
+}
+}

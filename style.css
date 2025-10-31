@@ -1,0 +1,114 @@
+*{
+    font-family: sans-serif;
+}
+#navbarSupportedContent ul li a{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.logo{
+    border-radius: 10px;
+}
+
+header{
+    position: fixed;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+.navbarItems{
+
+}
+
+.searchBox{
+    border-radius: 0px;
+}
+.searchBtn{
+    background-color: green;
+    color: white;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.navbar-nav a button{
+    padding: 0px 15px 0px 15px;
+    border-radius: 5px;
+        background: linear-gradient(to right, #8ed296, #85ebd1);
+        color: rgb(1, 6, 50);
+        font-weight: 600;
+    
+}
+.slide{
+    z-index: -11111;
+}
+.carousel-inner .carousel-item img{
+    width: 40px;
+    height: 700px;
+}
+.myImages{
+    border: 2px solid navy;
+    border-radius: 2px;
+}
+.textBoxItemsGroup{
+    border: 1px solid gray;
+    background-color: rgb(223, 224, 225);
+}
+.textBoxItems{
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    border-bottom: 3px solid gray;
+    border-right: 3px solid gray;
+}
+.textBoxItems img {
+    width: 70px;
+    height: 80px;
+}
+.textBoxItems h4 {
+    font-size: 18px;
+}
+.textBoxItems p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.signInArea{
+    border: 1px solid navy;
+    border-radius: 5px;
+    box-shadow: gray;
+    background-color: rgb(224, 230, 228);
+}
+.signBtn{
+    border:1px solid navy;
+    width: 200px;
+    color: navy;
+    background: linear-gradient(to right,#0ACEFE,#2699F8);
+    border-radius: 30px;
+}
+.signInArea p{
+    font-size: 12px;
+    
+    
+}
+.formTitle h5{
+    font-weight: 600;
+}
+.registerBtn button{
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    background: linear-gradient(to right,#0ACEFE,#2699F8);
+}
+
+footer{
+    border: 1px solid navy;
+    background-color: #03034a;
+}
+.contactBtn button {
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.contactBtn{
+    color: white;
+}
